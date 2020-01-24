@@ -1,0 +1,65 @@
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+ul{
+    list-style: none; /* menghilangkan bullet*/
+}
+
+li{
+    display: inline; /* membuat horisontal*/
+    float: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    /* background-color: aqua; */
+}
+
+/* li:hover{
+    background-color: white;
+    color: black;
+} */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* li{
+    float: left;
+} */
+
+main{
+    background-color: grey;
+    padding: 20px;
+}
+
+.pSatu{
+    height: auto;
+    column-width: 300px;
+    column-fill: balance;
+    /* column-count: 4; */
+    text-align: justify;
+    column-rule: 5px double black;
+}
+
+.spanTitle{
+    column-span: all;
+}
+
+.spanFromParagraph{
+    column-span: all;
+    column-width: 300px;
+    column-fill: balance;
+    column-rule: 5px double black;    
+    /* column-count: 4; */
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 0px;
+}

@@ -1,0 +1,80 @@
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+ul{
+    list-style: none; /* menghilangkan bullet*/
+}
+
+li{
+    display: inline; /* membuat horisontal*/
+    float: left;
+    padding-top: 15px;
+    padding-right: 10px;
+    /* background-color: aqua; */
+}
+
+/* li:hover{
+    background-color: white;
+    color: black;
+} */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.slider{
+    width: 1310px;
+    /* padding-right: 20px; */
+    /* background-color: black; */
+    column-span: all;
+    margin-bottom: 20px;
+}
+
+.slider-img{
+    width : 1310px; 
+    height : 600px;
+}
+
+.image{
+    width : 250px; 
+    height : 250px;
+    /* position: relative; */
+    /* float: right; */
+}
+
+.img-second{
+    float: left;
+    margin-right: 10px;
+}
+
+.p-text{
+    position: relative;
+    text-align: justify;
+    column-count: 4;
+    column-fill: balance;
+    column-rule: 5px double black;
+}
+
+/* .card{
+    text-align: justify;
+    column-count: 5;
+    column-fill: balance;
+    column-rule: 5px double black;
+} */
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 0px;
+}

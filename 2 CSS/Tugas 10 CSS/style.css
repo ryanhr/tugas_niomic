@@ -1,0 +1,19 @@
+body{
+    background-image: radial-gradient(circle at top right, white, red);
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.satu{
+    background-image: radial-gradient(circle at 50% 100%, white, blue);
+}
+
+.dua{
+    background-image: linear-gradient(to right, white, blue, white);
+}

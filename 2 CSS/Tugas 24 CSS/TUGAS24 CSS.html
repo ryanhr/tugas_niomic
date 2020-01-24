@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Offline file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .label_bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <form method="POST" action="#">
+        <div class="form-group">
+            <label class="label_bold">Nama Lengkap</label>
+            <input name="inNama" type="text" class="form-control" placeholder="Nama Lengkap">
+        </div>
+        <div class="form-group">
+            <label class="label_bold">Alamat Rumah</label>
+            <textarea name="inAlamat" class="form-control" rows="3" cols="80"></textarea>
+        </div>
+        <div class="form-group">
+            <label class="label_bold">Foto Profil</label>
+            <input name="inFoto" type="file" class="form-control">
+        </div>
+        <div class="form-group">
+            <label class="label_bold">Alamat Email</label>
+            <input name="inEmail" type="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label class="label_bold">Kata Sandi</label>
+            <input name="inPasswd" type="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <label class="label_bold">Jenis Kendaraan Anda</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inKendaraan" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label" for="inlineRadio1">Mobil</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inKendaraan" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label" for="inlineRadio2">Motor</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button name="inSubmit" type="submit" class="btn btn-primary">
+                Register
+            </button>
+        </div>
+    </form>
+    <script src="" async defer></script>
+</body>
+
+</html>

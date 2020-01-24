@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="semantic.min.css">
+        <style>
+            .box1{ background: red; }
+            .box2{ background: blue; }
+            .box3{ background: blueviolet; }
+            .box4{ background: grey; }
+            .box5{ background: green; }
+            .box6{ background: gold; }
+            .box7{ background: goldenrod; }
+        </style>
+		  <style type="text/css">
+			body {
+			  background-color: #d9d9d9;
+			}
+			body > .grid {
+			  height: 100%;
+			}
+			.image {
+			  margin-top: -100px;
+			}
+			.column {
+			  max-width: 450px;
+			}
+		  </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		 
+		<div class="ui middle aligned center aligned grid">
+			<div class="column">
+				<h2 class="ui teal image header">
+				  <img src="niomic.png" class="image">
+				  <div class="content">
+					Daftar Akun Niomic
+				  </div>
+				</h2>
+				<form class="ui large form">
+					<div class="ui stacked segment">
+						<div class="field">
+							<div class="ui left icon input">
+								<i class="user icon"></i>
+								<input type="text" name="namaDepan" placeholder="Nama Depan">
+							</div>
+						</div>
+						<div class="field">
+							<div class="ui left icon input">
+								<i class="user icon"></i>
+								<input type="text" name="namaBelakang" placeholder="Nama Belakang">
+							</div>
+						</div>
+						<div class="field">
+							<div class="ui left icon input">
+								<i class="user icon"></i>
+								<input type="number" name="noTelp" placeholder="No Telp/HP">
+							</div>
+						</div>
+						<div class="field">
+							<div class="ui left icon input">
+								<i class="user icon"></i>
+								<input type="email" name="email" placeholder="E-mail address">
+							</div>
+						</div>
+						<div class="field">
+						  <div class="ui left icon input">
+							<i class="lock icon"></i>
+							<input type="password" name="password" placeholder="Password">
+						  </div>
+						</div>
+						<div class="ui fluid large teal submit button">Login</div>
+					</div>
+
+					<div class="ui error message"></div>
+
+				</form>
+			</div>
+		</div>
+        <script src="semantic.min.js" async defer></script>
+    </body>
+</html>
